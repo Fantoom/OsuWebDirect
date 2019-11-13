@@ -29,7 +29,7 @@ If you want to change program settings. open "settings.json" file from program f
 
 ## Changelog
 
->### [[0.0.1]](https://github.com/Fantoom/OsuWebDirect/releases/tag/v0.0.1b) - 2019-05-04
+>### [[0.0.1]](https://github.com/Fantoom/OsuWebDirect/releases/tag/v0.0.1b) - 2019-11-13
 >#### First Upload
 
 ## Built With
