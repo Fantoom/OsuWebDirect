@@ -122,6 +122,10 @@ namespace OsuWebDirect
 		private void OnBeforeDownload(object sender, DownloadItem e)
 		{
 			Console.WriteLine(e.FullPath);
+			Action action = delegate () {
+				downloadProgress.Visible = true;
+			};
+			this.BeginInvoke(action);
 		}
 
 		private void OnDownloadUpdated(object sender, DownloadItem e)
@@ -134,6 +138,10 @@ namespace OsuWebDirect
 			Console.WriteLine(progress);
 			if (e.IsComplete && !e.IsCancelled)
 			{
+				Action action1 = delegate () {
+					downloadProgress.Visible = false;
+				};
+				this.BeginInvoke(action1);
 				System.Diagnostics.Process.Start(e.FullPath);
 			}
 		}
