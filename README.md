@@ -10,7 +10,7 @@ Ingame web browser overlay for downloading osu beatmaps (like osu!direct)
 
 ## Prerequisites
 * .NET Framework 4.7 or higher version
-*. Set X86 mode in visual studio
+* Set X86 mode in visual studio
 
 ## Download
 
