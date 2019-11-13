@@ -28,12 +28,12 @@ If you want to change program settings. open "settings.json" file from program f
 
 ## Changelog
 
->### [[0.0.1]](https://github.com/Fantoom/WallEngine/releases/tag/v0.0.2b) - 2019-05-04
+>### [[0.0.1]](https://github.com/Fantoom/OsuWebDirect/releases/tag/v0.0.1b) - 2019-05-04
 >#### First Upload
 
 ## Built With
 
-* [CefShar[](https://github.com/cefsharp/CefSharp) - Chromium Embedded Framework
+* [CefSharp](https://github.com/cefsharp/CefSharp) - Chromium Embedded Framework
 
 
 ## Contributing
