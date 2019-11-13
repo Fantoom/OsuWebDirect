@@ -75,7 +75,7 @@
 			this.Controls.Add(this.downloadProgress);
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "OsuDirecter";
+			this.Text = "OsuWebDirect";
 			this.contextMenuStrip1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
